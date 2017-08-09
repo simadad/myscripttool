@@ -18,10 +18,10 @@ def read(fname):
     你也可以不用这个方法，自己手动写内容即可，
     PyPI上支持.rst格式的文件。暂不支持.md格式的文件，<BR>.rst文件PyPI会自动把它转为HTML形式显示在你包的信息页面上。
     """
-    return codecs.open(os.path.join(os.path.dirname(__file__), fname)).read()
+    return codecs.open(os.path.join(os.path.dirname(__file__), fname), encoding='utf8').read()
 
 
-NAME = "testing-tools"
+NAME = "testingtools"
 """
 名字，一般放你包的名字即可
 """
@@ -62,7 +62,7 @@ URL = "https://github.com/simadad/testing-tools/tree/master"
 你这个包的项目地址，如果有，给一个吧，没有你直接填写在PyPI你这个包的地址也是可以的
 """
 
-VERSION = "0.0.2"
+VERSION = "0.0.4"
 """
 当前包的版本，这个按你自己需要的版本控制方式来
 """
