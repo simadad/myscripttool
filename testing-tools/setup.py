@@ -57,12 +57,12 @@ AUTHOR_EMAIL = "simadad@sina.com"
 作者的邮件地址
 """
 
-URL = ""
+URL = "https://github.com/simadad/testing-tools/tree/master"
 """
 你这个包的项目地址，如果有，给一个吧，没有你直接填写在PyPI你这个包的地址也是可以的
 """
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 """
 当前包的版本，这个按你自己需要的版本控制方式来
 """
@@ -86,7 +86,7 @@ setup(
     keywords=KEYWORDS,
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
-    # url=URL,
+    url=URL,
     license=LICENSE,
     packages=PACKAGES,
     include_package_data=True,
