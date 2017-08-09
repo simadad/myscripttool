@@ -21,12 +21,12 @@ def read(fname):
     return codecs.open(os.path.join(os.path.dirname(__file__), fname), encoding='utf8').read()
 
 
-NAME = "testingtools"
+NAME = "testools"
 """
 名字，一般放你包的名字即可
 """
 
-PACKAGES = ["testing-tools", ]
+PACKAGES = ["testools", ]
 """
 包含的包，可以多个，这是一个列表
 """
@@ -57,12 +57,12 @@ AUTHOR_EMAIL = "simadad@sina.com"
 作者的邮件地址
 """
 
-URL = "https://github.com/simadad/testing-tools/tree/master"
+URL = "https://github.com/simadad/myscripttool/tree/master/testools"
 """
 你这个包的项目地址，如果有，给一个吧，没有你直接填写在PyPI你这个包的地址也是可以的
 """
 
-VERSION = "0.0.4"
+VERSION = "0.0.1"
 """
 当前包的版本，这个按你自己需要的版本控制方式来
 """
